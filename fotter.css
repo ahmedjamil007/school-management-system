@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.coumn {
+  float: left;
+  width: 25%;
+  padding: 0 00px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 0px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .coumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+  }
+}
+/* Style the counter cards */
+.car {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 80px ;
+  text-align: center;
+color: white;
+  background-color: #050A30;
+}

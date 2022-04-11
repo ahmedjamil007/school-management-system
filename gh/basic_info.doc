@@ -1,0 +1,105 @@
+Administration.
+
+1) Index page:-
+
+	a) marquee dynamic. {C,U,D}
+			- #marquee_id [database navigation]
+			- marquee message.
+	b) card system (content:message) dynamic. {C,U,D}
+			- #card_id [database navigation]
+			- picture upload.
+			- name.
+			- position.
+			- message.
+
+2) Admission sub page:-
+
+	a) admission form. {C,U,D}
+			- #student_id. [database navigation]
+			- student name.
+			- student father name.
+			- student mother name.
+			- father occupation.
+			- mother occupation.
+			- date of birth.
+			- present address.
+			- permanent address.
+			- nationality.
+			- gender.
+			- mobile number.
+	b) admission related info. {C,U,D}
+			- #admission_info_id. [database navigation]
+			- addmission fee ammount. (varies for different dept.)
+			- info about papers and extras required for admission.
+			- addmission office contact info.
+
+3) Department sub page:-
+
+	a) primary section {C,U,D}
+		*) card system (content:teacher details) dynamic.
+			- #teacher_id [database navigation]
+			- picture upload.
+			- name.
+			- position.
+			- mobile.
+			- email.
+	
+	b) secondary section {C,U,D}
+		*) card system (content:teacher details) dynamic.
+			- #teacher_id [database navigation]
+			- picture upload.
+			- name.
+			- position.
+			- mobile.
+			- email.
+
+	b) hefoz section {C,U,D}
+		*) card system (content:teacher details) dynamic.
+			- #teacher_id [database navigation]
+			- picture upload.
+			- name.
+			- position.
+			- mobile.
+			- email.
+
+4) Committee sub page:-
+
+	a) finance committee. {C,U,D} (card system, dynamic)
+			- #committee_id. [database navigation]
+			- picture upload.
+			- name.
+			- mobile.
+			- email.
+
+	b) disciplinary committee. {C,U,D} (card system, dynamic)
+	 		- #committee_id [database navigation]
+			- picture upload.
+			- name.
+			- mobile.
+			- email.
+
+5) Notice and news sub page:-
+
+	a) exam notice. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf upload.
+
+	b) event notice. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf upload.
+
+	c) hostel notice. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf uplaod.
+
+	d) admission notice. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf uplaod.
+
+	e) class notice. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf uplaod.
+
+	f) results. {C,U,D} (dynamic)
+			- #notice_id. [database navigation]
+			- pdf upload.

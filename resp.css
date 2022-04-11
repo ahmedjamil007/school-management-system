@@ -1,0 +1,22 @@
+@media only screen and (max-width: 550px) {
+  .container {
+    margin:auto;
+    width: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows:  5fr 5fr 4fr;
+    grid-template-areas:
+      
+      "sidebar"
+      "main"
+      "footer";
+  }
+  .nested{
+    grid-template-columns: 1fr;
+     grid-template-rows: 10fr;
+  }
+  .about{
+    height: auto;
+  }
+  
+  
+}

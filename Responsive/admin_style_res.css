@@ -1,0 +1,26 @@
+/* for tablets width = 800px */
+
+@media only screen and (max-width: 800px) {
+
+    .title{
+        font-size: 1.2rem;
+    }
+
+    .admin_container{
+        width: 90vw;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 0px;
+    }
+    
+}
+    
+    /* for mobile width = 500px */
+    
+    @media only screen and (max-width: 500px) {
+    
+    .admin_container{
+        width: 80vw;
+        grid-template-columns:  1fr;
+    }
+    
+}

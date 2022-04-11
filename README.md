@@ -1,2 +1,2 @@
-# school management system
- course project
+# madrasha
+ university project

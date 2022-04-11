@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About us</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link rel="stylesheet" type="text/css" href="resp.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+<div class="loader">
+      <div></div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
+      <div> </div>
+    </div>
+
+
+        <nav>
+            <div class="logo"><h1>AMBIA</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="mainMenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">ADdmission</a></li>
+                <li><a href="#">Department</a></li>
+                <li><a href="#">Comitties</a></li>
+                <li><a href="#">Notice and news</a></li>
+                <li><a href="#">Student service</a></li>
+                
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-github"></i>
+                </span>
+            </ul>
+        </nav>
+<div class="container">
+
+
+
+
+
+ 
+  <main>
+
+
+
+  	
+    <div class="about"><p CLASS="AI"><center style="font-size:150px;color: rgb(63, 178, 191);">WELCOME TO  ADMIN </center></p></div>
+  </main>
+
+
+
+
+
+
+
+
+
+
+  <div id="sidebar">
+<div>  <a class="sub_nav_link" href="admission.php">Addmission</a> </div>
+  		<div>  <a class="sub_nav_link" href="#">Department</a> </div>
+  		<div> <a class="sub_nav_link" href="#">Comitties</a></div>
+  		<div><a class="sub_nav_link" href="#">Notice and news</a></div>
+  		<div> <a class="sub_nav_link" href="#">Student service</a> </div>
+
+
+  </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+  <footer>
+<div class="nested">
+  		<div><img src="0.jpg" alt="" width="280" height="250"></div>
+  		<div><img src="1.jpg" alt="" width="280" height="250"></div>
+  		<div><img src="2.jpg" alt="" width="280" height="250"> </div>
+  		<div><img src="3.jpg" alt="" width="280" height="250"> </div>
+  	</div>
+
+
+   </footer>
+
+   
+  <script src="app.js"></script>
+ <script type="text/javascript">
+    setTimeout(function(){
+      $('.loader').fadeToggle();
+    },3000);
+    </script>
+    <script > 
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+
+    </script>
+</div>
+</body>
+</html>

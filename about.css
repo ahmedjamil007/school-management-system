@@ -1,0 +1,102 @@
+
+
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr  0.8fr;
+  grid-template-areas:
+   
+    "sidebar main main main"
+    "footer footer footer footer";
+  grid-gap: 0.2rem;
+  color: #004d40;
+  text-align: center;
+  margin: auto;
+ 
+  
+
+}
+
+nav {
+  background: #a7ffeb;
+  grid-area: nav;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+main {
+  background: white;
+  grid-area: main;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+
+#sidebar {
+  background: white;
+  grid-area: sidebar;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+  font-size: 1.1rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h1{
+  font-size: 1.56rem;
+    text-align: left;
+}
+
+
+p{
+  
+   font-family: "Times New Roman", Times, serif;
+padding: 1.25rem;
+text-align:justify;
+font-size: 1.1rem;
+}
+.about{
+  height: 7.5rem auto;
+  background-color: #f2f3f5;
+    
+}
+
+footer {
+  background: #f2f3f5;
+  grid-area: footer;
+  border-radius: var(--main-radius);
+  padding-top: var(--main-padding);
+}
+.nested{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 18.75rem;
+
+}
+.nested > div{
+  
+  padding: 3.125rem;
+}
+
+.sub_nav_link{
+  display: block;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 10px;
+  letter-spacing: 1px;
+  transition: all .25s;
+}
+
+.sub_nav_link:hover{
+  letter-spacing: 10px;
+}
+
+
+
+

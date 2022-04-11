@@ -1,0 +1,142 @@
+/* form */
+
+
+.go_back{
+    color:#fff;
+    font-size: 1.2rem;
+    padding: 0px;
+}
+
+.fa-sign-out-alt{
+    transform: rotateZ(180deg);
+}
+
+.admin_header{
+    display:grid;
+    grid-template-columns: 1fr 30px;
+}
+
+.admin_message_container{
+    width: 75vw;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+.message_form{
+    border-radius: 20px; 
+}
+
+.placeholder_image{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    align-self: center;
+    border-radius: 100px;
+    border: 10px solid #fff;
+    cursor: pointer;
+    transition: 300ms ease-in;
+}
+
+.placeholder_image:hover{
+    width: calc(50% + 10px);
+    margin: auto;
+    border-radius: 100px;
+    border: 5px solid #fff;
+    cursor: pointer;
+    transition: 300ms ease-in;
+}
+
+.img_uploader{
+    display: none;
+}
+
+/* template */
+
+.message_template{
+    background-color: #fff;
+    display: block;
+}
+
+.message_body{
+    background-color: #ddd;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.messenger_photo{
+    width: 50%;
+    margin: auto;
+    display: grid;
+    align-self: center;
+    border-radius: 100px;
+    border: 10px solid #fff;
+}
+
+.text{
+    font-size: 1rem;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.position{
+    text-align: center;
+}
+
+.message{
+    text-align: justify;
+    padding: 16px;
+    background-color: #eeefff;
+    border-radius: 20px;
+    line-height: 1.5rem;
+}
+
+.edit{
+    padding: 12px;
+    background-color: coral;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 16px;
+    border: 2px solid coral;
+    transition: 300ms ease-in;
+}
+
+.edit:hover{
+    background-color: #fff;
+    color: coral;
+    border: 2px solid coral;
+    transition: 300ms ease-in;
+}
+
+.delete{
+    padding: 12px 14px;
+    background-color: red;
+    border-radius: 50px;
+    color: #fff;
+    margin-top: 16px;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: 300ms ease-in;
+
+}
+
+.delete:hover{
+    background-color: #fff;
+    color: red;
+    border: 2px solid red;
+    transition: 300ms ease-in;
+}
+
+.btns{
+    display: grid;
+    grid-template-columns: repeat(2, 50px);
+}
